@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+}
+
+p{
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+.cor{
+    color: chartreuse;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: greenyellow;
+}

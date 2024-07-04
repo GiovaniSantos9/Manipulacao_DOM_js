@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkseagreen;
+    padding: 300px;
+}
+
+.background{
+    background-color: black;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(47, 161, 255);
+    cursor: pointer;
+}
