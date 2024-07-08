@@ -1,0 +1,18 @@
+button {
+    color: #fff;
+    padding: 9px 15px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: darkgrey;
+    padding: 30px;
+}

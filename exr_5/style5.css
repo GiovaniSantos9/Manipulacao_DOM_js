@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    color: #fff;
+    padding: 9px 15px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 200px;
+}
+
+p{
+    font-size: 40px;
+    font-weight: 600;
+}

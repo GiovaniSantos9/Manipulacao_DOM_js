@@ -1,8 +1,11 @@
-const ul = document.getElementById('ul')
-const el = document.getElementById('li')
-const adicionar = document.getElementById('button')
+document.getElementById('meuBotao').addEventListener('click', function() {
+    var novoItem = document.createElement('li');
+    novoItem.textContent = 'Novo Item';
+    document.getElementById('minhaLista').appendChild(novoItem);
+});
 
-
-adicionar.addEventListener("click", () => {
-    
-})
+document.getElementById('minhaLista').addEventListener('click', function(e) {
+    if (e.target.tagName === 'LI') {
+        e.target.remove();
+    }
+});

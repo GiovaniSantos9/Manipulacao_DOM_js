@@ -1,0 +1,24 @@
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: darkgrey;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(47, 161, 255);
+    cursor: pointer;
+}
+
+ul li{
+    cursor: pointer;
+    background-color: grey;
+    border-radius:7px ;
+    margin: 7px;
+    padding: 5px;
+}
